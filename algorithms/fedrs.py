@@ -182,11 +182,11 @@ class FedRS():
             hs, _ = model(batch_x)
             ws = model.classifier.weight
 
-            dist = dist / dist.max()
-            dist = dist * (1.0 - self.args.alpha) + self.args.alpha
-            dist = dist.reshape((1, -1))
+            cdist = dist / dist.max()
+            cdist = cdist * (1.0 - self.args.alpha) + self.args.alpha
+            cdist = cdist.reshape((1, -1))
 
-            logits = dist * hs.mm(ws.transpose(0, 1))
+            logits = cdist * hs.mm(ws.transpose(0, 1))
 
             criterion = nn.CrossEntropyLoss()
             loss = criterion(logits, batch_y)
