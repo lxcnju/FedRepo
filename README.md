@@ -44,6 +44,13 @@ These algorithms could be found in the directory of `algorithms/'.
   * [Scaffold](https://github.com/ramshi236/Accelerated-Federated-Learning-Over-MAC-in-Heterogeneous-Networks)
   * [MOON](https://github.com/QinbinLi/MOON)
 
+## Environment Dependencies
+The code files are written in Python, and the utilized deep learning tool is PyTorch.
+  * `python`: 3.7.3
+  * `numpy`: 1.21.5
+  * `torch`: 1.9.0
+  * `torchvision`: 0.10.0
+  * `pillow`: 8.3.1
 
 ## Datasets
 We provide several datasets including (downloading link code be found in my [Homepage](https://www.lamda.nju.edu.cn/lixc/)):
