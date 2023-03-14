@@ -2,7 +2,7 @@
 The source code of our works on federated learning:
 * KDD 2021 paper: FedRS: Federated Learning with Restricted Softmax for Label Distribution Non-IID Data.
 * ECML/PKDD 2021 paper: FedPHP: Federated Personalization with Inherited Private Models.
-* CVPR 2022 paper: Federated Learning with Position-Aware Neurons. \[**Source Code To Come due to Business Confidentiality**\]
+* CVPR 2022 paper: Federated Learning with Position-Aware Neurons. \[**Source Code in [FedPAN](https://github.com/lxcnju/FedPAN/)**\]
 
 
 # Content
